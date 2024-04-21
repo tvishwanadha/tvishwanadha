@@ -1,16 +1,26 @@
-### Hi there 👋
+```javascript
+/**
+ * @module teja.vishwanadha
+ */
 
-<!--
-**tvishwanadha/tvishwanadha** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+import { SoftwareEngineer } from "humans";
 
-Here are some ideas to get you started:
+const me = new SoftwareEngineer({
+    name: "Teja Vishwanadha",
+    location: "Los Angeles, CA",
+    pronouns: "he" | "him",
+    recentTools: ["Python", "Docker", "Javascript"],
+    // changing the following is left as an exercise for the reader
+    works: {
+        at: "Tempo",
+        as: "Senior Staff Engineer",
+        doing: [
+            "technical strategy",
+            "platform lead",
+            "mentoring",
+        ],
+    },
+});
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+export { me as default };
+```
