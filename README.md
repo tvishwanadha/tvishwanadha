@@ -9,14 +9,15 @@ const me = new SoftwareEngineer({
     name: "Teja Vishwanadha",
     location: "Los Angeles, CA",
     pronouns: "he" | "him",
-    recentTools: ["Python", "Docker", "Javascript"],
+    recentTools: ["Python", "Docker", "Typescript"],
     // changing the following is left as an exercise for the reader
     works: {
-        at: "Tempo",
+        at: "Kindo",
         as: "Senior Staff Engineer",
         doing: [
             "technical strategy",
-            "platform lead",
+            "generative ai",
+            "devsecops",
             "mentoring",
         ],
     },
